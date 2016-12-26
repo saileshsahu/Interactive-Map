@@ -141,7 +141,7 @@
 
 @supports (cursor: zoom-in) {
     .points-content--open {
-		cursor: url(../close.png) 12 6, pointer;
+		cursor: url(close.png) 12 6, pointer;
 	}
 }
 

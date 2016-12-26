@@ -134,14 +134,14 @@
 }
 
 .points-content--open {
-	cursor: url(img/close.cur), pointer;
+	cursor: url(close.cur), pointer;
 	pointer-events: auto;
 	background: rgba(50,49,59,0.6);
 }
 
 @supports (cursor: zoom-in) {
     .points-content--open {
-		cursor: url(../img/close.png) 12 6, pointer;
+		cursor: url(../close.png) 12 6, pointer;
 	}
 }
 
